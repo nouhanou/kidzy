@@ -1,0 +1,11 @@
+pi_homepage:
+    path:     /
+    defaults: { _controller: PiBundle:Default:index }
+
+fun:
+    path:     /test
+    defaults: { _controller: PiBundle:test:fun }
+
+forum:
+    path:     /forum
+    defaults: { _controller: PiBundle:forum:form_index }
