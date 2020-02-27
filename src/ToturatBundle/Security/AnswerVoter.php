@@ -1,9 +1,9 @@
 <?php
 
-namespace TutoratBundle\Security;
+namespace ToturatBundle\Security;
 
-use TutoratBundle\Entity\Answer;
-use UserBundle\Entity\User;
+use ToturatBundle\Entity\Answer;
+use AppBundle\Entity\User;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Authorization\Voter\Voter;
 use Symfony\Component\Security\Core\Authorization\AccessDecisionManagerInterface;
@@ -39,7 +39,7 @@ class AnswerVoter extends Voter
     {
         $user = $token->getUser();
 
-        if (!$user instanceof User) {
+        if (!$user instanceof User ) {
             return false;
         }
 

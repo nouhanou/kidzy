@@ -35,5 +35,15 @@ services:
             $fromEmail: 'nouha.noreply@gmail.com'
 
 
+    ToturatBundle\Service\HandleVote:
+        # redundant thanks to _defaults, but value is overridable on each service
+        autowire: true
+
+
+    ToturatBundle\Service\VoteChecker:
+        # redundant thanks to _defaults, but value is overridable on each service
+        autowire: true
+
+
     #redirect.after.login:
        # class: AppBundle\Controller\SecurityController

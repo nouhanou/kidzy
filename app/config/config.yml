@@ -3,11 +3,13 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
     - { resource: "@PiBundle/Resources/config/services.yml" }
-
+    - { resource: "external/easy_admin.yml" }
+    - { resource: "@ToturatBundle/Resources/config/services.yml" }
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: fr
+    app.path.forum_images: /uploads/images/forum
 
 framework:
     templating:
@@ -38,7 +40,8 @@ framework:
 twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
-
+    form_themes:
+      - bootstrap_3_layout.html.twig
 # Doctrine Configuration
 doctrine:
     dbal:
@@ -90,6 +93,44 @@ fos_user:
     from_email:
         address:        nouha.noreply@gmail.com
         sender_name:    Demo Registration
+vich_uploader:
+    db_driver: orm
+    mappings:
+        product_images:
+            uri_prefix:         '%app.path.forum_images%'
+            upload_destination: '%kernel.root_dir%/../web%app.path.forum_images%'
+sensio_framework_extra:
+  router:      { annotations: true } # Deprecated; use routing annotations of Symfony core instead
+  request:     { converters: true, auto_convert: true }
+  view:        { annotations: true }
+  cache:       { annotations: true }
+  security:    { annotations: true }
+  psr_message: { enabled: false } # Defaults to true if the PSR-7 bridge is installed
+doctrine_migrations:
+    dir_name: "%kernel.root_dir%/DoctrineMigrations"
+    namespace: Application\Migrations
+    table_name: migration_versions
+    name: Application Migrations
+    organize_migrations: false # Version >=1.2 Possible values are: "BY_YEAR", "BY_YEAR_AND_MONTH", false
+# Paginator
+knp_paginator:
+    page_range: 5
+    default_options:
+        page_name: page
+        sort_field_name: sort
+        sort_direction_name: direction
+        distinct: true
+    template:
+        pagination: '@KnpPaginator/Pagination/twitter_bootstrap_v4_pagination.html.twig'
+        sortable: 'KnpPaginatorBundle/Pagination/sortable_link.html.twig'
+        filtration: '@KnpPaginator/Pagination/filtration.html.twig'
+stof_doctrine_extensions:
+  default_locale: fr
+  orm:
+    default:
+      timestampable: true
+
+
 
 
 

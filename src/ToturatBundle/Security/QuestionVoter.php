@@ -1,9 +1,9 @@
 <?php
 
-namespace TutoratBundle\Security;
+namespace ToturatBundle\Security;
 
-use TutoratBundle\Entity\Question;
-use UserBundle\Entity\User;
+use ToturatBundle\Entity\Question;
+use AppBundle\Entity\User;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Authorization\Voter\Voter;
 use Symfony\Component\Security\Core\Authorization\AccessDecisionManagerInterface;

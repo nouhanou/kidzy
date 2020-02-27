@@ -15,7 +15,9 @@ class MessageType extends AbstractType
     {
         $builder->add('text')
                 ->add('time')
-                ->add('user');
+                ->add('user')
+                ->add('image')
+                ->add('updatedAt');
     }/**
      * {@inheritdoc}
      */

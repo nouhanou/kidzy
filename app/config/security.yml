@@ -17,7 +17,7 @@ security:
             user_checker: security.user_checker
             form_login:
                 provider: fos_userbundle
-                csrf_token_generator: security.csrf.token_manager
+                #csrf_token_generator: security.csrf.token_manager
                 #success_handler: redirect.after.login
                 use_forward: true
                 default_target_path: /home
@@ -26,6 +26,10 @@ security:
             anonymous:    true
             logout_on_user_change: true
 
+    role_hierarchy:
+
+        ROLE_USER:       ROLE_USER
+        ROLE_SUPER_ADMIN: ROLE_ADMIN
     access_control:
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }

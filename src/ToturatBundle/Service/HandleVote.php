@@ -1,15 +1,16 @@
 <?php
-namespace TutoratBundle\Service;
+namespace ToturatBundle\Service;
 
-use TutoratBundle\Entity\Answer;
+use ToturatBundle\Entity\Answer;
 use Doctrine\Common\Persistence\ObjectManager;
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 class HandleVote 
 {
 
     private $em;
 
-    public function __construct(ObjectManager $em, \Symfony\Bundle\FrameworkBundle\Routing\Router $router)
+    public function __construct(ObjectManager $em, UrlGeneratorInterface $router)
     {
         $this->em = $em;
     }

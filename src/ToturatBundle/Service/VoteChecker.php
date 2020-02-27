@@ -1,7 +1,7 @@
 <?php
-namespace TutoratBundle\Service;
+namespace ToturatBundle\Service;
 
-use TutoratBundle\Entity\Answer;
+use ToturatBundle\Entity\Answer;
 use FOS\UserBundle\Model\UserInterface;
 
 class VoteChecker 

@@ -1,0 +1,6 @@
+tutorat_homepage:
+    path:     /t
+    defaults: { _controller: ToturatBundle:Default:index }
+admin:
+    path:     /add
+    defaults: { _controller: ToturatBundle:Question:addQuestion }

@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebf20f23-e4a8-4cec-88e7-b1659ca2b54e" name="Default Changelist" comment="" />
+    <list default="true" id="ebf20f23-e4a8-4cec-88e7-b1659ca2b54e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/frontOffice.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_04_02_2020_21_01_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_24_02_2020_20_42_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kidzy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kidzy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20200216122442.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DoctrineMigrations/Version20200216122442.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/message/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/message/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/external/easy_admin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/external/easy_admin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/MessageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/MessageType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/MessageType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Controller/AnswerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Controller/AnswerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Entity/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Entity/Answer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Entity/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Form/AnswerType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Form/AnswerType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Form/QuestionType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Form/QuestionType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/admin/answers_listing_admin.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/admin/answers_listing_admin.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/answer/edit_answer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/answer/edit_answer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/add_question.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/add_question.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/edit_question.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/edit_question.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/view_question.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/view_question.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/view_questions.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Resources/views/question/view_questions.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Security/AnswerVoter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Security/AnswerVoter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Security/QuestionVoter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Security/QuestionVoter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Service/HandleVote.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Service/HandleVote.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToturatBundle/Service/VoteChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToturatBundle/Service/VoteChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/forum/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/forum/Workshop-SwiftMailerBundle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/forum/ki.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +70,18 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="twigfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -69,43 +125,76 @@
       <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-pack" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XMBsxpo4Ib358kJdVE052NJfNS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/translations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\kidzy\src\ToturatBundle\Service" />
+      <recent name="C:\wamp64\www\kidzy\web" />
+      <recent name="C:\wamp64\www\kidzy\src\ToturatBundle" />
+      <recent name="C:\wamp64\www\kidzy\src\ToturatBundle\Resources" />
+      <recent name="C:\wamp64\www\kidzy\src\ToturatBundle\Security" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\kidzy\app\Resources\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\kidzy\translations" />
-      <recent name="C:\wamp64\www\kidzy\src\AppBundle" />
-      <recent name="C:\wamp64\www\kidzy\src\PiBundle" />
-      <recent name="C:\wamp64\www\kidzy\app\Resources\FOSUserBundle\views" />
-      <recent name="C:\wamp64\www\kidzy\web" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="s assets:install" />
-      <command value="s generate:bundle" />
-      <command value="s doctrine:database:create" />
       <command value="php app/console config:dump-reference SwiftmailerBundle" />
       <command value=" composer require symfony/swiftmailer-bundle" />
-      <command value="c dump-autoload" />
+      <command value="s doctrine:database:create" />
+      <command value="s doctrine:generate:form" />
+      <command value="s doctrine:generate:form ForumBundle:Answer" />
+      <command value="s doctrine:generate:form ForumBundle:Question" />
+      <command value="s doctrine:generate:form ForumBundle:Tag" />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:schema:create" />
+      <command value="s doctrine:generate:form ToturatBundle:Answer" />
+      <command value="s doctrine:generate:form ToturatBundle:Question" />
+      <command value="s doctrine:generate:form ToturatBundle:Tag" />
+      <command value="s generate:controller" />
       <command value="s doctrine:generate:entity" />
       <command value="s doctrine:schema:update --force" />
-      <command value="s generate:controller" />
+      <command value="c dump-autoload" />
+      <command value="s debug:router" />
+      <command value="php bin/console config:dump-reference web_profiler" />
+      <command value="config:dump-reference web_profiler" />
     </option>
   </component>
   <component name="ServiceViewManager">
@@ -135,73 +224,96 @@
       <workItem from="1581227516949" duration="9218000" />
       <workItem from="1581330306280" duration="31391000" />
       <workItem from="1581410967145" duration="25452000" />
-      <workItem from="1581450402599" duration="22521000" />
+      <workItem from="1581450402599" duration="26851000" />
+      <workItem from="1581681373788" duration="26833000" />
+      <workItem from="1581850319417" duration="1901000" />
+      <workItem from="1581852314229" duration="6978000" />
+      <workItem from="1581859746102" duration="77060000" />
+      <workItem from="1582075895533" duration="5481000" />
+      <workItem from="1582082672214" duration="33373000" />
+      <workItem from="1582365435125" duration="30480000" />
+      <workItem from="1582504910280" duration="7262000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="451" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581467461280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="451" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581467461280" />
-    <state x="485" y="103" key="#com.intellij.ide.util.MemberChooser" timestamp="1581463043101">
+    <state x="323" y="143" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1582571107608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="485" y="103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581463043101" />
+    <state x="323" y="143" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582571107608" />
+    <state x="485" y="103" key="#com.intellij.ide.util.MemberChooser" timestamp="1581974077869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="485" y="103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581974077869" />
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581127468075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581127468075" />
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582069272511">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582069272511" />
+    <state x="555" y="261" key="#com.jetbrains.php.framework.ui.FailedToParseDialog" timestamp="1582573339096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="555" y="261" key="#com.jetbrains.php.framework.ui.FailedToParseDialog/0.0.1366.728@0.0.1366.728" timestamp="1582573339096" />
     <state x="407" y="255" key="ComposerCompositePathDialog" timestamp="1580846450096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="407" y="255" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1580846450096" />
-    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1580846468584">
+    <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1582573357213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580846468584" />
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom" timestamp="1581468853278">
+    <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582573357213" />
+    <state width="1306" height="387" key="GridCell.Tab.0.bottom" timestamp="1582573473361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581468853278" />
-    <state width="1306" height="173" key="GridCell.Tab.0.center" timestamp="1581468853278">
+    <state width="1306" height="387" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582573473361" />
+    <state width="1306" height="387" key="GridCell.Tab.0.center" timestamp="1582573473361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581468853278" />
-    <state width="1306" height="173" key="GridCell.Tab.0.left" timestamp="1581468853278">
+    <state width="1306" height="387" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582573473361" />
+    <state width="1306" height="387" key="GridCell.Tab.0.left" timestamp="1582573473361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581468853278" />
-    <state width="1306" height="173" key="GridCell.Tab.0.right" timestamp="1581468853278">
+    <state width="1306" height="387" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582573473361" />
+    <state width="1306" height="387" key="GridCell.Tab.0.right" timestamp="1582573473361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581468853278" />
+    <state width="1306" height="387" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582573473361" />
     <state x="477" y="198" key="NewPhpClassDialog" timestamp="1581460588169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="477" y="198" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1581460588169" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1580846482253">
+    <state x="186" y="9" key="SettingsEditor" timestamp="1582573363461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580846482253" />
-    <state x="457" y="278" key="SymfonyPathDialog" timestamp="1580846472514">
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582573363461" />
+    <state x="457" y="278" key="SymfonyPathDialog" timestamp="1582573360001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="457" y="278" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1580846472514" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581450451447">
+    <state x="457" y="278" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1582573360001" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581859747335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581450451447" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1581468853151">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581859747335" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1582573277574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581468853151" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581470822026">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582573277574" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582373020092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581470822026" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582373020092" />
   </component>
 </project>

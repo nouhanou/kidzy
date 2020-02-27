@@ -1,0 +1,23 @@
+# app/config/config.yml
+easy_admin:
+  entities:
+    Message:
+        class: AppBundle\Entity\Message
+        list:
+            fields:
+                - "text"
+                - { property: 'image', type: 'image', base_path: '%app.path.forum_images%' }
+                - "time"
+
+        show:
+            fields:
+                - { property: 'image', type: 'image', base_path: '%app.path.forum_images%' }
+        form:
+
+            fields:
+                  - "text"
+                  - { property: 'imageFile', type: 'vich_image' }
+                  - "time"
+
+    User:
+        class: AppBundle\Entity\User
